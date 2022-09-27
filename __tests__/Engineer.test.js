@@ -13,4 +13,5 @@ test ("test getRole function",()=>{
     
     const newRole = new Engineer ("Ben", "02","ben@place.com", "bengithub")
     expect (newRole.getRole()).toBe("Engineer")
+    // console.log(getRole())
 })

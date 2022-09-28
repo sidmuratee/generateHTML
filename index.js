@@ -104,7 +104,7 @@ function generateManager() {
             message: 'What is your office number?',
         },
     ]).then(response => {
-        var manager = new Manager(response.name, response.id, response.email, response.officeNumber)
+        let manager = new Manager(response.name, response.id, response.email, response.officeNumber)
 
         team.push(manager)
         // insert add new member function here**
@@ -136,7 +136,7 @@ function generateEngineer() {
             message: 'What is your GitHub Username',
         },
     ]).then(response => {
-        var engineer = new Engineer(response.name, response.id, response.email, response.github)
+        let engineer = new Engineer(response.name, response.id, response.email, response.github)
 
         team.push(engineer)
         // insert add new member function here**
@@ -167,7 +167,7 @@ function generateIntern() {
             message: 'What school did you go to?',
         },
     ]).then(response => {
-        var intern = new Intern(response.name, response.id, response.email, response.school)
+        let intern = new Intern(response.name, response.id, response.email, response.school)
 
         team.push(intern)
         // insert add new member function here**

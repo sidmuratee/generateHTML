@@ -37,24 +37,24 @@ const generateTeam = team => {
     </div>
             `;
         };
-    // *****INTERN CARD HERE******  ICON-->  fas fa-glasses mr-2***
-    // const generateEngineer = engineer => {
-    //         return `
-    //         <div class="card employee-card">
-    //     <div class="card-header">
-    //         <h2 class="card-title">${engineer.getName()}</h2>
-    //         <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>${engineer.getRole()}</h3>
-    //     </div>
-    //     <div class="card-body">
-    //         <ul class="list-group">
-    //             <li class="list-group-item">ID: ${engineer.getId()}</li>
-    //             <li class="list-group-item">Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
-    //             <li class="list-group-item">GitHub: <a href="https://github.com/${engineer.getGitHub()}" target="_blank" rel="noopener noreferrer">${engineer.getGitHub()}</a></li>
-    //         </ul>
-    //     </div>
-    // </div>
-    //         `;
-    //     };
+    // *****INTERN CARD HERE******  ICON-->  fa fa-graduation-cap***
+    const generateIntern = intern => {
+            return `
+            <div class="card employee-card">
+        <div class="card-header">
+            <h2 class="card-title">${intern.getName()}</h2>
+            <h3 class="card-title"><i class="fa fa-graduation-cap mr-2"></i>${intern.getRole()}</h3>
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                <li class="list-group-item">ID: ${intern.getId()}</li>
+                <li class="list-group-item">Email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
+                <li class="list-group-item">School: <a href="https://github.com/${intern.getSchool()}" target="_blank" rel="noopener noreferrer">${intern.getSchool()}</a></li>
+            </ul>
+        </div>
+    </div>
+            `;
+        };
     
         
     
@@ -98,8 +98,8 @@ const generateTeam = team => {
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 jumbotron mb-3 team-heading">
-                    <h1 class="text-center">My Team</h1>
+                <div class="col-12 jumbotron mb-3 team-heading" style="background-color: #e3f2fd;">
+                    <h1 class="text-center">All Employees</h1>
                 </div>
             </div>
         </div>

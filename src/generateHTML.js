@@ -98,8 +98,8 @@ const generateTeam = team => {
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 jumbotron mb-3 team-heading" style="background-color: #e3f2fd;">
-                    <h1 class="text-center">All Employees</h1>
+                <div class="col-12 jumbotron mb-3 team-heading" style="background-color: #ad90f7;">
+                    <h1 class="text-center">My Team</h1>
                 </div>
             </div>
         </div>
